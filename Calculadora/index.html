@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <script language="javascript" src="js/calculos.js"></script>
+    <body>
+        <div class="containerflex">
+            <div class="titulo">
+                <h2>CALCULADOXA<h2>
+            </div>
+            <div id="calculadora">
+                <div>
+                <form name='resultado'> <!--Mostra a expressão e o resultado-->
+                    <input class="texto" name='texto' id="resultado"> 
+                </form>
+                </div>
+                <div id="botoes"><!--quando clicar nos botões, chama a função pegaNumero, que vai passar um valor ou simbolo-->
+
+                    <div id="numeros"> 
+                        <button class="button" onclick="pegaNumero(1)" value="1">1</button>
+                        <button class="button" onclick="pegaNumero(2)" value="2">2</button>
+                        <button class="button" onclick="pegaNumero(3)" value="3">3</button><br>
+                        <button class="button" onclick="pegaNumero(4)" value="4">4</button>
+                        <button class="button" onclick="pegaNumero(5)" value="5">5</button>
+                        <button class="button" onclick="pegaNumero(6)" value="6">6</button><br>
+                        <button class="button" onclick="pegaNumero(7)" value="7">7</button>
+                        <button class="button" onclick="pegaNumero(8)" value="8">8</button>
+                        <button class="button" onclick="pegaNumero(9)" value="9">9</button><br>
+                        <button class="button zero" onclick="pegaNumero(0)" value="0">0</button>
+                    </div>
+
+                    <div id="operadores">
+                        <button class="button bt" onclick="apaga('c')" value="c">c</button><br>
+                        <button class="button" onclick="pegaNumero('/')" value="/"> / </button>
+                        <button class="button" onclick="pegaNumero('-')" value="-"> &minus; </button><br>                     
+                        <button class="button soma" onclick="pegaNumero('+')" value="+"> + </button>
+                        <button class="button" onclick="pegaNumero('*')" value="*"> &times; </button><br>
+                        <button class="button bt" onclick="igual('=')" value="="> = </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>            
+    </body>
+</html>
