@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'alloy';
-    src: url(../font/alloy.ttf)
+    src: url(../font/alloy.ttf);
 }
 
 @font-face {
@@ -94,5 +94,5 @@ body {
 }
 
 .bt {
-    width: 90px;;
+    width: 90px;
 }

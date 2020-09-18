@@ -12,3 +12,4 @@ function igual(){
 function apaga() {
     document.resultado.texto.value = ""; //coloca uma string vazia dentro do form resultado, para apagar tudo.
 }
+

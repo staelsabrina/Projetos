@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <title>..::Calculadoxa::..</title> 
     </head>
     <script language="javascript" src="js/calculos.js"></script>
     <body>
@@ -13,7 +14,7 @@
             <div id="calculadora">
                 <div>
                 <form name='resultado'> <!--Mostra a expressão e o resultado-->
-                    <input class="texto" name='texto' id="resultado"> 
+                    <input class="texto" name='texto' id="resultado" placeholder="0"> 
                 </form>
                 </div>
                 <div id="botoes"><!--quando clicar nos botões, chama a função pegaNumero, que vai passar um valor ou simbolo-->
@@ -32,10 +33,11 @@
                     </div>
 
                     <div id="operadores">
-                        <button class="button bt" onclick="apaga('c')" value="c">c</button><br>
+                        <button class="button" onclick="pegaNumero('.')" value=".">.</button>
+                        <button class="button" onclick="apaga('c')" value="c">c</button><br>
                         <button class="button" onclick="pegaNumero('/')" value="/"> / </button>
                         <button class="button" onclick="pegaNumero('-')" value="-"> &minus; </button><br>                     
-                        <button class="button soma" onclick="pegaNumero('+')" value="+"> + </button>
+                        <button class="button" onclick="pegaNumero('+')" value="+"> &plus; </button>
                         <button class="button" onclick="pegaNumero('*')" value="*"> &times; </button><br>
                         <button class="button bt" onclick="igual('=')" value="="> = </button>
                     </div>
