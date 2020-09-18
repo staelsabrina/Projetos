@@ -16,6 +16,7 @@ body {
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)100%), url(../img/fundo.jpg);
+    flex-direction: column;
 }
 
 #container {
@@ -93,6 +94,28 @@ body {
     width: 136px;
 }
 
-.bt {
+.igual {
     width: 90px;
+}
+
+footer {
+    clear:both;
+
+}
+
+footer p{
+    text-align: center;
+    font-size: 10pt;
+    color: #ffffff;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    transition: 1s;
+}
+
+footer a:hover {
+    font-weight: bolder;
+    color: rgb(68, 6, 77);
 }
