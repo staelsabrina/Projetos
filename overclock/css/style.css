@@ -1,0 +1,109 @@
+@font-face{
+    font-family: 'sig';
+    src: url(/font/modernline.otf);
+}
+
+@font-face {
+    font-family: 'iberica';
+    src: url(/font/longaiberica.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 100vh;
+    background: url(../img/bg.jpg);
+    background-size: cover;
+    color: #ffffff;
+}
+
+h1 {
+    font-family: 'iberica';
+    font-size: 5rem;
+    width: 400px;
+    margin-top: 20px;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+header h4 {
+    font-size: 0.8rem;
+}
+
+.comecar {
+    padding: 5px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#numeros {
+    width: 80vw;
+    height: 80vh;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.todos {
+    width: 70vw;
+    margin: 20px;
+}
+
+.todos img {
+    width: 60px;
+    margin: 5px;
+}
+
+.list {
+    margin-bottom: 25px;
+}
+
+button {
+    cursor: pointer;
+}
+
+footer {
+    height: 10vh;
+    border-top: #000 1px solid;
+    clear:both;
+}
+
+footer p{
+    text-align: center;
+    font-size: 0.7rem;
+    color: rgb(255, 255, 255);
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+footer a:hover {
+    color: purple;
+    font-weight: bolder;
+}
+
+#sig {
+    font-family: 'sig';
+}
