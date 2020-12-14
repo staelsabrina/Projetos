@@ -1,11 +1,11 @@
 @font-face{
     font-family: 'sig';
-    src: url(/font/modernline.otf);
+    src: url(../font/modernline.otf);
 }
 
 @font-face {
     font-family: 'iberica';
-    src: url(/font/longaiberica.ttf);
+    src: url(../font/longaiberica.ttf);
 }
 
 * {
