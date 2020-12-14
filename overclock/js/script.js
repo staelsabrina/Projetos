@@ -1,5 +1,6 @@
 let cartas = [];
 let tela = document.getElementById('todos');
+let sub = document.getElementById('leitura')
 let cards1 = document.getElementById('cards1');
 let cards2 = document.getElementById('cards2');
 let cards3 = document.getElementById('cards3');
@@ -31,6 +32,8 @@ function generateRan(){  //Função para gerar randomicamente o vetor de número
 function comecar() { //Chama a função randômica e escreve na tela
     let comeco = document.getElementById('comeco');
     comeco.style.display = 'none';
+    sub.style.display = 'none';
+
     generateRan();
     tela.innerHTML = `<h4>Olhe as cartas abaixo e escolha uma.</h4><br>
     <div">`
