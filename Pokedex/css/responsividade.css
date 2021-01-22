@@ -1,0 +1,56 @@
+@media (max-width: 900px) {
+    .card:hover .imgbox {
+        transform: rotateY(-130deg);
+    }
+}
+
+@media (max-width: 840px) {
+    .card:hover .imgbox {
+        transform: rotateY(-100deg);
+    }
+}
+
+@media (max-width: 500px) {
+    .card:hover .imgbox {
+        transform: rotateY(-90deg);
+    }
+}
+
+@media (max-width: 325px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    .card {
+        width: 90vw;
+        height: 60vh;
+    }
+
+    input {
+        margin-bottom: 10px;
+    }
+
+    #txtn {
+        width: 80vw;
+    }
+
+    .visor {
+        width: 90%;
+        height: 90%;
+    }
+
+    .visor .foto {
+        width: 70vw;
+        height: 120px;
+    }
+
+    .foto img {
+        max-width: 80px;
+        max-height: 80px;
+    }
+
+    .visor .infos {
+        width: 70vw;
+        font-size: 12px;
+    }
+}

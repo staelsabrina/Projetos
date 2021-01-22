@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsividade.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/modalResponsividade.css">
+    <title>Pokédex</title>
+    
+</head>
+<body>
+    <header>
+        <h1>Pokédex</h1>
+        <a href="#abrirModal">Clique aqui para saber como funciona</a>
+    </header>
+    <div class="corpo">
+        <div class="card">
+            
+            <div class="imgbox">
+                <img src="./img/capa.png" class="capaFront">
+            </div>
+
+            <div class="interno">
+                <div class="pesquisa">                    
+                    <div class="form">
+                        <p><input type="text" id="txtn" autofocus="true" placeholder="Digite aqui">
+                        <input type="button" class="button" value="Buscar" onclick="dex()"></p>
+                    </div>
+                    <div class="visor">
+                        <div class="foto" id="foto"></div>
+                        <div class="infos" id="infos"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div> 
+
+    <!-- Modal -->
+    <div id="abrirModal" class="modal">
+        <a href="" title="Fechar" class="fechar">X</a>
+        <h3>Como utilizar sua Pokedex</h3>
+        <p>Seja muito bem-vindo(a) Treinador(a)!</p>
+        <p>Para utilizar sua nova Pokedex, basta abrir a tampa, clicar no campo onde diz "digite aqui" e escrever o nome ou o número de um pokémon. Ao todo, são 649 pokémons listados</p>
+        <p>Obrigada por utilizar os serviços das Indústrias PokeFake. Tenha uma excelente jornada!</p>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
